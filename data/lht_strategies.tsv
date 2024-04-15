@@ -1,0 +1,80 @@
+id	name	strategy	literature	comment
+bakta_Count	Number of contigs			
+bakta_sORFs	Small proteins/short open reading frames (sORF)			
+dbcan_AA	Cazyme-related redox enzymes			
+dbcan_signalp	Signal peptide (extracellular enzyme)	acquisition	Malik2020	
+dbcan_hits	Cazymes (total hits)	acquisition	Malik2020	
+dbcan.substate.unqiue	Cazyme substrates (unique)	acquisition	Malik2023	
+dbcan.substrates	Cazyme substrates	acquisition	Malik2021	
+dbcan.substrates.hits	Cazyme substrates (total)	acquisition	Malik2022	
+eggnog_cog.cat.A	RNA processing and modification			
+eggnog_cog.cat.B	Chromatin structure and dynamics			
+eggnog_cog.cat.D	Cell cycle control, cell division, chromosome partitioning			
+eggnog_cog.cat.E	Amino acid transport and metabolism			
+eggnog_cog.cat.I	Lipid transport and metabolism			
+eggnog_cog.cat.N	Cell motility	acquisition	Malik2022	
+eggnog_cog.cat.Q	Secondary metabolites biosynthesis, transport and catabolism			
+eggnog_cog.cat.O	Posttranslational modification, protein turnover, chaperones			
+eggnog_cog.cat.T	Signal transduction mechanisms			
+eggnog_cog.cat.S	Poorly characterized function (COG)			
+eggnog_cog.cat.V	Defense mechanisms			
+eggnog_cog.cat.C	Energy production and conversion			
+eggnog_go.chemotaxis	Chemotaxis			
+eggnog_go.motility	Cellular motility	opportunist;acquisition	Wood2023;Malik2020	
+eggnog_go.o2.limit	Response to decreased o2 levels			
+eggnog_go.o2.response	Response to o2 levels			
+eggnog_go.o2.sensor	O2 sensor			
+grodon_CUB	Codon usage bias	ruderal	Fierer2017	
+gapseq_Transport	Transport reactions	acquisition	Malik2020	
+gapseq_Siderophores.Biosynthesis	Siderophore biosynthesis	acquisition	Malik2020	
+eggnog_go.siderophore.metabolism	Siderophore metabolism	acquisition	Malik2020	
+antismash.known.cluster	Secondary metabolite biosynthetic gene clusters (known)			
+antismash.hits	Secondary metabolite biosynthetic gene clusters (total)			
+antismash.type	Secondary metabolite biosynthetic gene cluster types			
+eggnog_go.dna.damage	DNA damage response	stress-tolerance	Wood2023	
+gapseq_Antibiotic.Biosynthesis	Antibiotics biosynthesis	competition	Fierer2017	
+gapseq_Antibiotic.Degradation	Antibiotics degradation	competition	Sharma2023	
+resfinder_targets	Resistance genes	stress-tolerance	Sharma2023	
+gapseq_meta.Detoxification	Detoxification pathways			
+gapseq_meta.Degradation	Degradation pathways			
+eggnog_go.heavy.metal.response	Heavy metal response			
+GC	GC content	ruderal	Fierer2017	GC is proxy for C:N ratio (Gralka2023)
+gapseq_meta.Energy-Metabolism	Energy metabolism	competition	Fierer2017	Energy metabolism as indicator for catabolic diversity
+gapseq_ferm	Metabolic by-products			
+eggnog_go.efflux.multidrug.pump	Multidrug efflux pumps	stress-tolerance	Sharma2023	
+eggnog_go.efflux.export	Efflux pumps	stress-tolerance	Wood2023	
+bakta_pseudogenes	Pseudogenes			
+antismash_RiPP-like	Unspecified ribosomally synthesised & post-translationally modified peptide product			
+dbcan_GH	Glycoside Hydrolases	acquisition	Malik2020	
+eggnog_go.ros.response	ROS response	stress-tolerance		
+eggnog_cog.cat.U	Intracellular trafficking, secretion, and vesicular transport 			
+gapseq_sugar.degradation	Sugar degradation	Glycolytic strategy	Gralka2022	
+gapseq_fatty.acid.degradation	Fatty acid degradation	gluconeogenic strategy	Gralka2022	
+gapseq_carboxylate.degradation	Carboxylate degradation	gluconeogenic strategy	Gralka2022	
+dbcan_subfam.hits	CAZyme  subfamilies (eCAMI)			
+grodon_d	Minimal doubling time	ruderal	Fierer2017	
+eggnog_kegg.chemotaxis	Chemotaxis			
+eggnog_cog.cat.P	Inorganic ion transport and metabolism			
+bakta_ncRNAs	non-coding RNA			
+eggnog_go.osmotic.stress	Osmotic stress response			
+gapseq_meta.amine.polyamine.degradation	Amine and polyamine degradation			
+gapseq_meta.amine.polyamine.biosynthesis	Amine and polyamine biosynthesis			
+eggnog_kegg.secretion.systems	Secretion systems			
+eggnog_cog.cat.W	Cell wall/membrane/envelope biogenesis			
+eggnog_go.extracellular.region	Extracellular region (secretion)			
+eggnog_go.stress.response	Stress response			
+bakta_t3ss	Type III secretion systems			
+gapseq_meta.Enzyme-Test	Enzymatic test reactions			
+eggnog_kegg.quorum.sensing	Quorum sensing			
+vfdb_Immune.modulation	Immune system modulation			
+eggnog_go.membrane.protein.complex	Membrane protein complex			
+vfdb_Effector.delivery.system	Effector delivery system			
+eggnog_go.host.interactions	Host interaction processes			
+bakta_t2ss	Type II secretion systems			
+eggnog_cog.cat.K	Transcription 			
+eggnog_cog.cat.L	Replication, recombination and repair			
+grodon_CPB	Genome-wide codon pair bias			
+eggnog.hits	Proteins			
+bakta_Length	Genome size			
+eggnog.kegg.tc	Transporter			
+eggnog_go.heat.response	Heat response			
